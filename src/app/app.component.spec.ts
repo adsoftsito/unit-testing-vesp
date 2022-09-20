@@ -11,7 +11,7 @@ describe('AppComponent Test Suite', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  xit('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
